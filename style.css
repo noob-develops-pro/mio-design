@@ -292,9 +292,13 @@ p {
   text-align: center;
   margin-top: 8rem;
 }
-.our-services > p {
+.section-heading {
+  text-align: center;
+}
+.section-p {
   width: 80%;
   margin: 3rem auto;
+  text-align: center;
   color: var(--color-primary);
 }
 
@@ -371,4 +375,92 @@ p {
 }
 .bottom-img {
   transform: rotate(90deg) scale(1.2);
+}
+
+/* partners */
+
+.partners-container {
+  margin: 6rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.partners img {
+  width: 12rem;
+  height: 8rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  object-fit: contain;
+  background-color: #fff;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+/* testimonial */
+.testimonial-section {
+  position: relative;
+}
+.img-m {
+  width: 10rem;
+  height: 9rem;
+}
+.float-r {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+}
+
+.testimonial-content {
+  margin-right: 10%;
+}
+.wraper {
+  border: var(--border-gray);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.img-wraper {
+  min-width: 35rem;
+  height: 25rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 3rem;
+}
+
+.fa-quote-left {
+  color: #ff8f03;
+  font-size: 5rem;
+  margin-right: 2rem;
+}
+.fa-quote-right {
+  color: #ff8f03;
+  font-size: 5rem;
+  margin-left: 7rem;
+  position: absolute;
+}
+
+.testimonial-content p {
+  display: inline;
+  line-height: 1.9;
+}
+.testimonial-footer {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  line-height: 1;
+}
+.person {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 1rem;
 }
